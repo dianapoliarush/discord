@@ -1,0 +1,94 @@
+.promo {
+  min-height: 650px;
+  background-color: var(--main-color);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 5;
+}
+
+.header__logo {
+  width: 10%;
+}
+
+.discord {
+  width: 5rem;
+  height: auto;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.header__nav a {
+  color: var(--white-color);
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+.header__nav a:hover {
+  text-decoration: underline;
+}
+
+.promo__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 7rem auto;
+  max-width: 80%;
+}
+
+.promo__header,
+.promo__text,
+.promo__links {
+  z-index: 5;
+}
+
+.promo__header {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+.promo__text {
+  margin-top: 2rem;
+  color: var(--white-color);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.promo__links {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.promo__bg {
+  position: relative;
+}
+
+.promo__img-bg {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.promo__imgs {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 90rem;
+  z-index: 3;
+}

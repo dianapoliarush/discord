@@ -1,0 +1,33 @@
+@import "base/variables.css";
+@import "blocks/promo.css";
+@import "blocks/btns.css";
+@import "blocks/discord-advantage.css";
+@import "blocks/footer.css";
+@import "blocks/burger.css";
+@import "blocks/media.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style-type: none;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+}
+
+html {
+  font-size: 150%;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

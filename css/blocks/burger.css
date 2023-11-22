@@ -1,0 +1,126 @@
+.burger-menu {
+  display: none;
+  position: relative;
+}
+
+.burger-menu__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0rem;
+  z-index: 30;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+
+.burger-menu__lines::before,
+.burger-menu__lines::after,
+.burger-menu__lines {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: var(--white-color);
+  transition: 0.4s;
+}
+.burger-menu__lines {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.burger-menu__lines::before {
+  content: "";
+  top: -12px;
+}
+.burger-menu__lines::after {
+  content: "";
+  top: 12px;
+}
+
+.burger-menu__active .burger-menu__lines {
+  background-color: transparent;
+}
+.burger-menu__active .burger-menu__lines::before {
+  top: 0rem;
+  right: 0rem;
+  transform: rotate(45deg);
+  background-color: #23272a;
+}
+.burger-menu__active .burger-menu__lines::after {
+  top: 0rem;
+  right: 0rem;
+  transform: rotate(-45deg);
+  background-color: #23272a;
+}
+
+.burger-menu__nav {
+  padding: 4rem 1rem 0 1rem;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 40%;
+  border-radius: 0.5rem;
+  background-color: var(--white-color);
+  overflow-y: auto;
+  right: -100%;
+  transition: 0.8s;
+}
+.burger-menu__active .burger-menu__nav {
+  right: 0;
+  transition: 0.4s;
+}
+.burger-menu__link {
+  padding: 0.5rem 0.5rem;
+  font-size: 0.67rem;
+  text-decoration: none;
+  line-height: 1rem;
+  font-weight: 300;
+  color: var(--black-color);
+  border-bottom: 1px solid #fff;
+}
+
+.burger-menu__link-active {
+  background-color: var(--grey-color);
+  color: var(--text-link-color);
+  border-radius: 0.5rem;
+}
+
+.burger-menu__link:hover {
+  text-decoration: underline;
+}
+
+.burger-menu__overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 10;
+}
+.burger-menu__active .burger-menu__overlay {
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.burger-menu__logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 7rem;
+  height: auto;
+}
+
+.burger-menu__logo img {
+  width: 7rem;
+  height: auto;
+}
+
+.burger-menu__line {
+  width: 100%;
+  background-color: var(--grey-color);
+  margin-bottom: 1.5rem;
+}

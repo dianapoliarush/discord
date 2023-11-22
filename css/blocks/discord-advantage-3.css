@@ -1,0 +1,26 @@
+.discord-advantage-3 {
+  max-height: 550px;
+}
+
+.discord-advantage-3__description {
+  max-width: 300px;
+}
+
+.discord-advantage-3__header,
+.discord-advantage-3__text {
+  grid-column: 2 / 3;
+}
+
+.discord-advantage-3__header {
+  grid-row: 1 / 2;
+}
+
+.discord-advantage-3__text {
+  grid-row: 2 / 3;
+  line-height: 1.625;
+}
+
+.discord-advantage-3__img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+}

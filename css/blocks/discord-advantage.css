@@ -1,0 +1,44 @@
+@import "discord-advantage-1.css";
+@import "discord-advantage-2.css";
+@import "discord-advantage-3.css";
+@import "discord-advantage-4.css";
+
+.white-bg {
+  background-color: var(--white-color);
+}
+
+.grey-bg {
+  background-color: var(--grey-color);
+}
+
+.discord-advantage__wrapper {
+  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  overflow: hidden;
+}
+
+.discord-advantage__description {
+  display: grid;
+}
+
+.discord-advantage__header {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.discord-advantage__text {
+  font-size: 0.65rem;
+  margin-top: 1rem;
+  font-weight: 300;
+  line-height: 1.625;
+}
+
+.discord-advantage__img img {
+  max-width: 100%;
+  width: auto;
+  object-fit: contain;
+}

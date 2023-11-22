@@ -1,0 +1,25 @@
+.discord-advantage-4__description {
+  /* max-height: 200px; */
+  text-align: center;
+}
+
+.discord-advantage-4__header {
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+.start-journey {
+  position: relative;
+  padding: 5rem 0;
+}
+
+.start-journey__header {
+  z-index: 1;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.start-journey__img-bg {
+  position: absolute;
+  top: 25%;
+}

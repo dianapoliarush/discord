@@ -1,0 +1,255 @@
+@media (min-width: 1100px) {
+  .container {
+    padding: 1rem 7rem;
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .container {
+    max-width: 960px;
+    padding: 1rem 3rem;
+  }
+  .promo__links {
+    flex-direction: column;
+  }
+  .promo__btn {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 768px;
+    padding: 1rem 0rem;
+  }
+  .header__nav,
+  .promo__img-1 {
+    display: none;
+  }
+  .burger-menu {
+    display: block;
+  }
+  .header-items {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .promo__wrapper {
+    margin: 7rem 0;
+    align-items: flex-start;
+  }
+  .promo__header,
+  .promo__text {
+    text-align: left;
+  }
+  .promo__img-2 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
+  .discord-advantage-1 {
+    max-height: 500px;
+  }
+  .discord-advantage-2 {
+    max-height: 500px;
+  }
+  .discord-advantage-3 {
+    max-height: 500px;
+  }
+  .discord-advantage-4__img {
+    width: 100%;
+  }
+  .footer__links {
+    grid-template-columns: auto auto;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    max-width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .promo__header {
+    font-size: 1.5rem;
+  }
+  .promo__text {
+    font-size: 0.6rem;
+    margin-top: 1rem;
+  }
+  .promo__wrapper {
+    max-width: 100%;
+    margin: 3rem auto;
+    position: relative;
+  }
+  .promo__links {
+    flex-direction: row;
+  }
+  .promo__btn {
+    width: 11rem;
+    font-size: 0.5rem;
+  }
+  .promo__img-bg,
+  .promo__img-2 {
+    display: none;
+  }
+  .promo__img-1 {
+    width: 20rem;
+    display: block;
+    position: absolute;
+    top: -3rem;
+    left: 35%;
+  }
+  .discord-advantage__wrapper {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 0rem;
+    padding: 1rem 0;
+  }
+  .discord-advantage__description {
+    grid-column: 1 / 3;
+    max-width: 100%;
+  }
+  .discord-advantage__header {
+    font-size: 0.75rem;
+    font-weight: 800;
+  }
+
+  .discord-advantage__text {
+    font-size: 0.4rem;
+    margin-top: 0.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  .start-journey__btn {
+    width: 100%;
+  }
+  .start-journey {
+    padding: 2rem 0;
+  }
+  .footer__wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+  }
+  .footer__general {
+    grid-row: 1/2;
+  }
+
+  .footer__links {
+    grid-row: 2/3;
+    grid-column: 1/3;
+    justify-content: space-around;
+  }
+  .header-items {
+    width: 20%;
+  }
+  .burger-menu__nav {
+    width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 400px;
+  }
+  .promo__links {
+    flex-direction: column;
+  }
+  .promo__img-1 {
+    width: 15rem;
+    display: block;
+    position: absolute;
+    top: -3rem;
+    left: 40%;
+  }
+  .start-journey__img-bg {
+    display: none;
+  }
+  .lang-menu ul {
+    top: -10rem;
+    width: 6rem;
+    height: 10rem;
+  }
+  .lang-menu ul li a {
+    font-size: 0.4rem;
+  }
+  .header-items {
+    width: 25%;
+  }
+  .burger-menu__nav {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    max-width: 380px;
+  }
+  .promo__header {
+    font-size: 1rem;
+  }
+  .promo__text {
+    font-size: 0.5rem;
+    margin-top: 1rem;
+  }
+  .promo__btn {
+    width: 11rem;
+    font-size: 0.5rem;
+  }
+  .discord-advantage__header {
+    font-size: 0.6rem;
+    font-weight: 800;
+  }
+  .start-journey__header {
+    font-size: 0.9rem;
+  }
+  .lang-menu ul {
+    top: -10rem;
+    width: 6rem;
+    height: 10rem;
+  }
+  .lang-menu ul li a {
+    font-size: 0.4rem;
+  }
+  .header-items {
+    width: 30%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    max-width: 300px;
+  }
+  .lang-menu ul li a {
+    font-size: 0.3rem;
+  }
+  .lang-menu ul {
+    width: 5rem;
+  }
+  .header-items {
+    width: 32%;
+  }
+  .burger-menu__nav {
+    width: 80%;
+  }
+}
+
+@media (max-width: 356px) {
+  .container {
+    max-width: 280px;
+  }
+  .header-items {
+    width: 35%;
+  }
+  .burger-menu__nav {
+    width: 100%;
+  }
+}

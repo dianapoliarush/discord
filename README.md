@@ -1,1 +1,1 @@
-# Discoed website
+# Discord landing
